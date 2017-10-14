@@ -1,0 +1,45 @@
+p {
+	color: red;
+	font-family: "Impact", "Arial", sans-serif;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+p.yellow_background {
+	color: blue;
+	font-size: 14px;
+	background-color: yellow;
+}
+
+h1 {
+	color: rgb(221,97, 11, 0.75);
+	font-style: italic;
+}
+
+#bolder_blue {
+	color: indigo;
+	font-weight: bold;
+	text-shadow: 0 5px 5px rgba(255, 0, 0, 0.5);
+}
+
+.wider {
+	line-height: 1.5em;
+}
+
+div {
+	background-image:
+		linear-gradient (180deg,red,yellow);
+}
+
+ul {
+	list-style-type: circle;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 2px solid green;
+	padding: 5px 10px;
+}
